@@ -1,10 +1,11 @@
-
 import "./globals.css";
+import "../src/assets/css/app.css"
 
+import Header from '../src/components/container/header.jsx'
 function App() {
   return (
     <>
-      <h1>Hello world</h1>
+      <Header></Header>
     </>
   );
 }
