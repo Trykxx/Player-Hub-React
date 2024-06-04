@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -17,9 +17,11 @@ module.exports = {
       },
     },
     extend: {
+      textColor: ["hover"], //! add
+      stroke: ["hover"], //! add
       colors: {
-      MyGray : 'rgb(50 50 50)',
-      MyBlue : 'rgb(69, 100, 255)',
+        mygray: "rgb(50 50 50)", //! add
+        myblue: "rgb(69, 100, 255)", //! add
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -76,4 +78,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
