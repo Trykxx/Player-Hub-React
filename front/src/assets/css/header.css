@@ -1,9 +1,0 @@
-header {
-  width: 100%;
-  min-height: 50px;
-  padding: 20px 0 20px 50px;
-  display: flex;
-  margin-bottom: 40px;
-  border-bottom: 1px solid var(--cl-text);
-  gap: 30px;
-}
